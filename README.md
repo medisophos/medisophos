@@ -1,47 +1,63 @@
-Smart Medicine Management System using QR Code
+# 💊 Medisophos – Smart Medicine Management System Using QR Code
 
-Medisophos is a team-based mini project developed to manage medicine records efficiently.
-The system helps store, update, and track medicine information using a simple and user-friendly interface.
+Medisophos is a web-based **Smart Medicine Management System** developed as an academic mini project.
 
-This project was created as part of an academic mini project and is maintained for learning and portfolios purpose.
+The system helps users efficiently manage medicine records, track stock information, and generate QR codes for medicines through a simple and user-friendly interface.
 
-Features
-- Add new medicine records
-- Update existing medicine details
-- Delete medicine records
-- View available medicines
-- Basic stock management
-- Clean and simple UI
+---
 
-Requirements:
-- Python 3.10+
+## 📌 Project Overview
+
+Managing medicine information manually can be time-consuming and may lead to errors in maintaining records.
+
+**Medisophos** provides a simple digital solution for storing and managing medicine details. Users can add, view, update, and delete medicine records while using QR codes to identify medicine information easily.
+
+---
+
+## ✨ Features
+
+- ➕ Add new medicine records
+- 👁️ View medicine details
+- ✏️ Update existing medicine records
+- 🗑️ Delete medicine records
+- 📦 Basic medicine stock management
+- 🔲 Generate QR codes for medicines
+- 💾 Store medicine information using SQLite
+- 🖥️ Simple and user-friendly web interface
+- 📱 QR-code based medicine identification
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend programming |
+| Flask | Web application framework |
+| SQLite | Database |
+| HTML5 | Web page structure |
+| CSS3 | User interface styling |
+| QR Code | Medicine identification |
+| Pillow | Image processing for QR codes |
+
+---
+
+## 📋 Requirements
+
+Before running the project, make sure you have:
+
+- Python **3.10 or later**
 - pip
+- Git
+- A web browser
 
-Install dependencies:
-    pip install -r requirements.txt
+---
 
-Run:
-    python app.py
+# 🚀 Installation & Setup
 
-Open in browser: http://127.0.0.1:5000
+## 1. Clone the Repository
 
-Project structure (single-folder):
-medicine_qr_project/
-├── app.py
-├── requirements.txt
-├── README.md
-├── templates/
-│   ├── index.html
-│   ├── dashboard.html
-│   ├── add_medicine.html
-│   ├── view_medicine.html
-│   └── update_medicine.html
-└── static/
-    ├── css/
-    │   └── style.css
-    └── qr_codes/  # auto-created at runtime
+Open Terminal or Command Prompt and run:
 
-
-Notes:
-- This is a minimal, extendable starter. It uses SQLite for simplicity.
-- For production use: add authentication, validation, input sanitation, HTTPS, and role-based access.
+```bash
+git clone https://github.com/medisophos/Medisophos.git
