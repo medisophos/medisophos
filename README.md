@@ -1,5 +1,18 @@
 Smart Medicine Management System using QR Code
 
+Medisophos is a team-based mini project developed to manage medicine records efficiently.
+The system helps store, update, and track medicine information using a simple and user-friendly interface.
+
+This project was created as part of an academic mini project and is maintained for learning and portfolios purpose.
+
+Features
+- Add new medicine records
+- Update existing medicine details
+- Delete medicine records
+- View available medicines
+- Basic stock management
+- Clean and simple UI
+
 Requirements:
 - Python 3.10+
 - pip
@@ -27,6 +40,7 @@ medicine_qr_project/
     ├── css/
     │   └── style.css
     └── qr_codes/  # auto-created at runtime
+
 
 Notes:
 - This is a minimal, extendable starter. It uses SQLite for simplicity.

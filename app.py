@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from Flask import Flask, render_template, request, redirect, url_for, flash
 import sqlite3, qrcode, os
 from datetime import datetime
 
